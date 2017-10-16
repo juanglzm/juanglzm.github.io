@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juan González, Diseño gráfico y sitios web</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+        <symbol id="development" viewBox="0 0 120 120">
+            <path fill="#1976D2" d="M110,60c0,27.566-22.433,50-50,50c-27.567,0-50-22.434-50-50s22.433-50,50-50C87.567,10,110,32.434,110,60z
+            M107.712,60c0-26.283-21.429-47.712-47.712-47.712S12.288,33.717,12.288,60S33.717,107.713,60,107.713S107.712,86.283,107.712,60z
+            M20.826,42.534l20.48,56.083C26.964,91.641,17.087,76.965,17.087,60C17.087,53.807,18.426,47.891,20.826,42.534z M85.67,71.719
+            l-4.241,14.286L65.915,39.911c0,0,2.566-0.168,4.91-0.446c2.289-0.279,2.01-3.684-0.278-3.517
+            c-6.976,0.503-11.439,0.559-11.439,0.559s-4.185-0.056-11.272-0.559c-2.344-0.167-2.623,3.349-0.279,3.517
+            c2.177,0.223,4.464,0.446,4.464,0.446l6.696,18.304L49.341,86.34L33.717,39.911c0,0,2.567-0.168,4.911-0.446
+            c2.288-0.279,2.009-3.684-0.279-3.517c-6.92,0.503-11.439,0.559-11.439,0.559c-0.782,0-1.73-0.056-2.735-0.056
+            C31.819,24.788,44.989,17.088,60,17.088c11.161,0,21.317,4.296,28.962,11.271c-0.168,0-0.391,0-0.558,0
+            c-4.186,0-7.198,3.628-7.198,7.589c0,3.517,2.064,6.474,4.24,10.045c1.674,2.847,3.516,6.529,3.516,11.831
+            C88.962,61.507,87.456,65.748,85.67,71.719z M73.95,99.844c0.057,0.224,0.168,0.447,0.279,0.614
+            c-4.464,1.563-9.207,2.455-14.229,2.455c-4.185,0-8.259-0.614-12.109-1.786l12.835-37.389L73.95,99.844z M102.913,60
+            c0,15.85-8.594,29.632-21.373,37.054l13.113-37.835c2.178-6.25,3.293-11.049,3.293-15.401c0-1.563-0.111-3.014-0.335-4.409
+            C100.96,45.547,102.913,52.522,102.913,60z"/>
+        </symbol>
+
+        <symbol id="branding" viewBox="0 0 120 120">
+            <path fill="#1976D2" d="M60,104.572c-24.624,0-44.571-19.949-44.571-44.572c0-24.624,19.947-44.571,44.571-44.571
+            S104.571,35.376,104.571,60C104.571,84.623,84.624,104.572,60,104.572z M23.388,60c0,20.197,16.416,36.613,36.612,36.613
+            S96.612,80.197,96.612,60c0-20.196-16.416-36.612-36.612-36.612S23.388,39.804,23.388,60z M80.047,83.131
+            c0.249,0.498,0.249,1.096-0.05,1.543c-0.248,0.498-0.796,0.795-1.343,0.795h-7.562c-0.597,0-1.144-0.297-1.393-0.846l-9.65-18.156
+            h-7.711v17.41c0,0.896-0.696,1.592-1.592,1.592h-6.666c-0.895,0-1.592-0.695-1.592-1.592V36.122c0-0.896,0.697-1.592,1.592-1.592
+            h14.626c5.223,0,7.511,0.448,9.451,1.194c5.621,2.089,9.104,7.61,9.104,14.376c0,6.118-3.035,11.292-7.86,13.681
+            c0.149,0.248,0.299,0.498,0.448,0.795L80.047,83.131z M64.278,44.38c-0.995-0.547-2.388-0.896-5.82-0.896h-6.119v13.979h8.059
+            c4.378,0,6.865-2.587,6.865-7.064C67.263,47.514,66.268,45.475,64.278,44.38z"/>
+            <rect y="15.086" fill="#868E96" width="0.857" height="0.686"/>
+            <path fill="#868E96" d="M117.429,15.771h-1.715v-0.686h1.715V15.771z M114,15.771h-1.714v-0.686H114V15.771z M110.571,15.771
+            h-1.714v-0.686h1.714V15.771z M107.143,15.771h-1.714v-0.686h1.714V15.771z M103.714,15.771H102v-0.686h1.714V15.771z
+                M100.286,15.771h-1.715v-0.686h1.715V15.771z M96.857,15.771h-1.715v-0.686h1.715V15.771z M93.429,15.771h-1.715v-0.686h1.715
+            V15.771z M90,15.771h-1.714v-0.686H90V15.771z M86.571,15.771h-1.714v-0.686h1.714V15.771z M83.143,15.771h-1.714v-0.686h1.714
+            V15.771z M79.714,15.771H78v-0.686h1.714V15.771z M76.286,15.771h-1.715v-0.686h1.715V15.771z M72.857,15.771h-1.715v-0.686
+            h1.715V15.771z M69.429,15.771h-1.715v-0.686h1.715V15.771z M66,15.771h-1.714v-0.686H66V15.771z M62.571,15.771h-1.714v-0.686
+            h1.714V15.771z M59.143,15.771h-1.714v-0.686h1.714V15.771z M55.714,15.771H54v-0.686h1.714V15.771z M52.286,15.771h-1.715
+            v-0.686h1.715V15.771z M48.857,15.771h-1.715v-0.686h1.715V15.771z M45.429,15.771h-1.715v-0.686h1.715V15.771z M42,15.771
+            h-1.714v-0.686H42V15.771z M38.571,15.771h-1.714v-0.686h1.714V15.771z M35.143,15.771h-1.714v-0.686h1.714V15.771z
+                M31.714,15.771H30v-0.686h1.714V15.771z M28.286,15.771h-1.715v-0.686h1.715V15.771z M24.857,15.771h-1.715v-0.686h1.715
+            V15.771z M21.429,15.771h-1.715v-0.686h1.715V15.771z M18,15.771h-1.714v-0.686H18V15.771z M14.571,15.771h-1.714v-0.686h1.714
+            V15.771z M11.143,15.771H9.429v-0.686h1.714V15.771z M7.714,15.771H6v-0.686h1.714V15.771z M4.286,15.771H2.571v-0.686h1.715
+            V15.771z"/>
+            <rect x="119.143" y="15.086" fill="#868E96" width="0.857" height="0.686"/>
+            <rect y="23.033" fill="#868E96" width="0.857" height="0.686"/>
+            <path fill="#868E96" d="M117.429,23.719h-1.715v-0.686h1.715V23.719z M114,23.719h-1.714v-0.686H114V23.719z M110.571,23.719
+            h-1.714v-0.686h1.714V23.719z M107.143,23.719h-1.714v-0.686h1.714V23.719z M103.714,23.719H102v-0.686h1.714V23.719z
+                M100.286,23.719h-1.715v-0.686h1.715V23.719z M96.857,23.719h-1.715v-0.686h1.715V23.719z M93.429,23.719h-1.715v-0.686h1.715
+            V23.719z M90,23.719h-1.714v-0.686H90V23.719z M86.571,23.719h-1.714v-0.686h1.714V23.719z M83.143,23.719h-1.714v-0.686h1.714
+            V23.719z M79.714,23.719H78v-0.686h1.714V23.719z M76.286,23.719h-1.715v-0.686h1.715V23.719z M72.857,23.719h-1.715v-0.686
+            h1.715V23.719z M69.429,23.719h-1.715v-0.686h1.715V23.719z M66,23.719h-1.714v-0.686H66V23.719z M62.571,23.719h-1.714v-0.686
+            h1.714V23.719z M59.143,23.719h-1.714v-0.686h1.714V23.719z M55.714,23.719H54v-0.686h1.714V23.719z M52.286,23.719h-1.715
+            v-0.686h1.715V23.719z M48.857,23.719h-1.715v-0.686h1.715V23.719z M45.429,23.719h-1.715v-0.686h1.715V23.719z M42,23.719
+            h-1.714v-0.686H42V23.719z M38.571,23.719h-1.714v-0.686h1.714V23.719z M35.143,23.719h-1.714v-0.686h1.714V23.719z
+                M31.714,23.719H30v-0.686h1.714V23.719z M28.286,23.719h-1.715v-0.686h1.715V23.719z M24.857,23.719h-1.715v-0.686h1.715
+            V23.719z M21.429,23.719h-1.715v-0.686h1.715V23.719z M18,23.719h-1.714v-0.686H18V23.719z M14.571,23.719h-1.714v-0.686h1.714
+            V23.719z M11.143,23.719H9.429v-0.686h1.714V23.719z M7.714,23.719H6v-0.686h1.714V23.719z M4.286,23.719H2.571v-0.686h1.715
+            V23.719z"/>
+            
+            <rect x="119.143" y="23.033" fill="#868E96" width="0.857" height="0.686"/>
+            <rect y="104.229" fill="#868E96" width="0.857" height="0.686"/>
+                   <path fill="#868E96" d="M117.429,104.914h-1.715v-0.686h1.715V104.914z M114,104.914h-1.714v-0.686H114V104.914z
+            M110.571,104.914h-1.714v-0.686h1.714V104.914z M107.143,104.914h-1.714v-0.686h1.714V104.914z M103.714,104.914H102v-0.686
+            h1.714V104.914z M100.286,104.914h-1.715v-0.686h1.715V104.914z M96.857,104.914h-1.715v-0.686h1.715V104.914z M93.429,104.914
+            h-1.715v-0.686h1.715V104.914z M90,104.914h-1.714v-0.686H90V104.914z M86.571,104.914h-1.714v-0.686h1.714V104.914z
+            M83.143,104.914h-1.714v-0.686h1.714V104.914z M79.714,104.914H78v-0.686h1.714V104.914z M76.286,104.914h-1.715v-0.686h1.715
+            V104.914z M72.857,104.914h-1.715v-0.686h1.715V104.914z M69.429,104.914h-1.715v-0.686h1.715V104.914z M66,104.914h-1.714
+            v-0.686H66V104.914z M62.571,104.914h-1.714v-0.686h1.714V104.914z M59.143,104.914h-1.714v-0.686h1.714V104.914z
+            M55.714,104.914H54v-0.686h1.714V104.914z M52.286,104.914h-1.715v-0.686h1.715V104.914z M48.857,104.914h-1.715v-0.686h1.715
+            V104.914z M45.429,104.914h-1.715v-0.686h1.715V104.914z M42,104.914h-1.714v-0.686H42V104.914z M38.571,104.914h-1.714v-0.686
+            h1.714V104.914z M35.143,104.914h-1.714v-0.686h1.714V104.914z M31.714,104.914H30v-0.686h1.714V104.914z M28.286,104.914
+            h-1.715v-0.686h1.715V104.914z M24.857,104.914h-1.715v-0.686h1.715V104.914z M21.429,104.914h-1.715v-0.686h1.715V104.914z
+            M18,104.914h-1.714v-0.686H18V104.914z M14.571,104.914h-1.714v-0.686h1.714V104.914z M11.143,104.914H9.429v-0.686h1.714
+            V104.914z M7.714,104.914H6v-0.686h1.714V104.914z M4.286,104.914H2.571v-0.686h1.715V104.914z"/>
+            <rect x="119.143" y="104.229" fill="#868E96" width="0.857" height="0.686"/>
+            <rect y="96.063" fill="#868E96" width="0.857" height="0.686"/>
+            <path fill="#868E96" d="M117.429,96.748h-1.715v-0.686h1.715V96.748z M114,96.748h-1.714v-0.686H114V96.748z M110.571,96.748
+            h-1.714v-0.686h1.714V96.748z M107.143,96.748h-1.714v-0.686h1.714V96.748z M103.714,96.748H102v-0.686h1.714V96.748z
+                M100.286,96.748h-1.715v-0.686h1.715V96.748z M96.857,96.748h-1.715v-0.686h1.715V96.748z M93.429,96.748h-1.715v-0.686h1.715
+            V96.748z M90,96.748h-1.714v-0.686H90V96.748z M86.571,96.748h-1.714v-0.686h1.714V96.748z M83.143,96.748h-1.714v-0.686h1.714
+            V96.748z M79.714,96.748H78v-0.686h1.714V96.748z M76.286,96.748h-1.715v-0.686h1.715V96.748z M72.857,96.748h-1.715v-0.686
+            h1.715V96.748z M69.429,96.748h-1.715v-0.686h1.715V96.748z M66,96.748h-1.714v-0.686H66V96.748z M62.571,96.748h-1.714v-0.686
+            h1.714V96.748z M59.143,96.748h-1.714v-0.686h1.714V96.748z M55.714,96.748H54v-0.686h1.714V96.748z M52.286,96.748h-1.715
+            v-0.686h1.715V96.748z M48.857,96.748h-1.715v-0.686h1.715V96.748z M45.429,96.748h-1.715v-0.686h1.715V96.748z M42,96.748
+            h-1.714v-0.686H42V96.748z M38.571,96.748h-1.714v-0.686h1.714V96.748z M35.143,96.748h-1.714v-0.686h1.714V96.748z
+                M31.714,96.748H30v-0.686h1.714V96.748z M28.286,96.748h-1.715v-0.686h1.715V96.748z M24.857,96.748h-1.715v-0.686h1.715
+            V96.748z M21.429,96.748h-1.715v-0.686h1.715V96.748z M18,96.748h-1.714v-0.686H18V96.748z M14.571,96.748h-1.714v-0.686h1.714
+            V96.748z M11.143,96.748H9.429v-0.686h1.714V96.748z M7.714,96.748H6v-0.686h1.714V96.748z M4.286,96.748H2.571v-0.686h1.715
+            V96.748z"/>
+            <rect x="104.229" fill="#868E96" width="0.686" height="0.857"/>
+            <path fill="#868E96" d="M104.914,117.43h-0.686v-1.715h0.686V117.43z M104.914,114h-0.686v-1.715h0.686V114z M104.914,110.572
+            h-0.686v-1.715h0.686V110.572z M104.914,107.143h-0.686v-1.713h0.686V107.143z M104.914,103.715h-0.686V102h0.686V103.715z
+                M104.914,100.285h-0.686v-1.713h0.686V100.285z M104.914,96.857h-0.686v-1.715h0.686V96.857z M104.914,93.43h-0.686v-1.715
+            h0.686V93.43z M104.914,90h-0.686v-1.715h0.686V90z M104.914,86.572h-0.686v-1.715h0.686V86.572z M104.914,83.143h-0.686V81.43
+            h0.686V83.143z M104.914,79.715h-0.686V78h0.686V79.715z M104.914,76.285h-0.686v-1.713h0.686V76.285z M104.914,72.857h-0.686
+            v-1.715h0.686V72.857z M104.914,69.43h-0.686v-1.715h0.686V69.43z M104.914,66h-0.686v-1.715h0.686V66z M104.914,62.572h-0.686
+            v-1.715h0.686V62.572z M104.914,59.143h-0.686v-1.714h0.686V59.143z M104.914,55.714h-0.686V54h0.686V55.714z M104.914,52.285
+            h-0.686v-1.714h0.686V52.285z M104.914,48.857h-0.686v-1.715h0.686V48.857z M104.914,45.429h-0.686v-1.715h0.686V45.429z
+                M104.914,42h-0.686v-1.715h0.686V42z M104.914,38.571h-0.686v-1.714h0.686V38.571z M104.914,35.143h-0.686v-1.714h0.686V35.143
+            z M104.914,31.714h-0.686V30h0.686V31.714z M104.914,28.285h-0.686v-1.714h0.686V28.285z M104.914,24.857h-0.686v-1.715h0.686
+            V24.857z M104.914,21.429h-0.686v-1.715h0.686V21.429z M104.914,18h-0.686v-1.715h0.686V18z M104.914,14.571h-0.686v-1.714
+            h0.686V14.571z M104.914,11.143h-0.686V9.429h0.686V11.143z M104.914,7.714h-0.686V6h0.686V7.714z M104.914,4.285h-0.686V2.571
+            h0.686V4.285z"/>
+            <rect x="104.229" y="119.143" fill="#868E96" width="0.686" height="0.857"/>
+            <rect x="96.151" fill="#868E96" width="0.686" height="0.857"/>
+            <path fill="#868E96" d="M96.837,117.43h-0.686v-1.715h0.686V117.43z M96.837,114h-0.686v-1.715h0.686V114z M96.837,110.572
+            h-0.686v-1.715h0.686V110.572z M96.837,107.143h-0.686v-1.713h0.686V107.143z M96.837,103.715h-0.686V102h0.686V103.715z
+                M96.837,100.285h-0.686v-1.713h0.686V100.285z M96.837,96.857h-0.686v-1.715h0.686V96.857z M96.837,93.43h-0.686v-1.715h0.686
+            V93.43z M96.837,90h-0.686v-1.715h0.686V90z M96.837,86.572h-0.686v-1.715h0.686V86.572z M96.837,83.143h-0.686V81.43h0.686
+            V83.143z M96.837,79.715h-0.686V78h0.686V79.715z M96.837,76.285h-0.686v-1.713h0.686V76.285z M96.837,72.857h-0.686v-1.715
+            h0.686V72.857z M96.837,69.43h-0.686v-1.715h0.686V69.43z M96.837,66h-0.686v-1.715h0.686V66z M96.837,62.572h-0.686v-1.715
+            h0.686V62.572z M96.837,59.143h-0.686v-1.714h0.686V59.143z M96.837,55.714h-0.686V54h0.686V55.714z M96.837,52.285h-0.686
+            v-1.714h0.686V52.285z M96.837,48.857h-0.686v-1.715h0.686V48.857z M96.837,45.429h-0.686v-1.715h0.686V45.429z M96.837,42
+            h-0.686v-1.715h0.686V42z M96.837,38.571h-0.686v-1.714h0.686V38.571z M96.837,35.143h-0.686v-1.714h0.686V35.143z
+                M96.837,31.714h-0.686V30h0.686V31.714z M96.837,28.285h-0.686v-1.714h0.686V28.285z M96.837,24.857h-0.686v-1.715h0.686
+            V24.857z M96.837,21.429h-0.686v-1.715h0.686V21.429z M96.837,18h-0.686v-1.715h0.686V18z M96.837,14.571h-0.686v-1.714h0.686
+            V14.571z M96.837,11.143h-0.686V9.429h0.686V11.143z M96.837,7.714h-0.686V6h0.686V7.714z M96.837,4.285h-0.686V2.571h0.686
+            V4.285z"/>
+            <rect x="96.151" y="119.143" fill="#868E96" width="0.686" height="0.857"/>
+            <rect x="15.086" fill="#868E96" width="0.686" height="0.857"/>
+            <path fill="#868E96" d="M15.771,117.43h-0.686v-1.715h0.686V117.43z M15.771,114h-0.686v-1.715h0.686V114z M15.771,110.572
+            h-0.686v-1.715h0.686V110.572z M15.771,107.143h-0.686v-1.713h0.686V107.143z M15.771,103.715h-0.686V102h0.686V103.715z
+                M15.771,100.285h-0.686v-1.713h0.686V100.285z M15.771,96.857h-0.686v-1.715h0.686V96.857z M15.771,93.43h-0.686v-1.715h0.686
+            V93.43z M15.771,90h-0.686v-1.715h0.686V90z M15.771,86.572h-0.686v-1.715h0.686V86.572z M15.771,83.143h-0.686V81.43h0.686
+            V83.143z M15.771,79.715h-0.686V78h0.686V79.715z M15.771,76.285h-0.686v-1.713h0.686V76.285z M15.771,72.857h-0.686v-1.715
+            h0.686V72.857z M15.771,69.43h-0.686v-1.715h0.686V69.43z M15.771,66h-0.686v-1.715h0.686V66z M15.771,62.572h-0.686v-1.715
+            h0.686V62.572z M15.771,59.143h-0.686v-1.714h0.686V59.143z M15.771,55.714h-0.686V54h0.686V55.714z M15.771,52.285h-0.686
+            v-1.714h0.686V52.285z M15.771,48.857h-0.686v-1.715h0.686V48.857z M15.771,45.429h-0.686v-1.715h0.686V45.429z M15.771,42
+            h-0.686v-1.715h0.686V42z M15.771,38.571h-0.686v-1.714h0.686V38.571z M15.771,35.143h-0.686v-1.714h0.686V35.143z
+                M15.771,31.714h-0.686V30h0.686V31.714z M15.771,28.285h-0.686v-1.714h0.686V28.285z M15.771,24.857h-0.686v-1.715h0.686
+            V24.857z M15.771,21.429h-0.686v-1.715h0.686V21.429z M15.771,18h-0.686v-1.715h0.686V18z M15.771,14.571h-0.686v-1.714h0.686
+            V14.571z M15.771,11.143h-0.686V9.429h0.686V11.143z M15.771,7.714h-0.686V6h0.686V7.714z M15.771,4.285h-0.686V2.571h0.686
+            V4.285z"/>
+            <rect x="15.086" y="119.143" fill="#868E96" width="0.686" height="0.857"/>
+            <rect x="22.951" fill="#868E96" width="0.686" height="0.857"/>
+            <path fill="#868E96" d="M23.637,117.43h-0.686v-1.715h0.686V117.43z M23.637,114h-0.686v-1.715h0.686V114z M23.637,110.572
+            h-0.686v-1.715h0.686V110.572z M23.637,107.143h-0.686v-1.713h0.686V107.143z M23.637,103.715h-0.686V102h0.686V103.715z
+                M23.637,100.285h-0.686v-1.713h0.686V100.285z M23.637,96.857h-0.686v-1.715h0.686V96.857z M23.637,93.43h-0.686v-1.715h0.686
+            V93.43z M23.637,90h-0.686v-1.715h0.686V90z M23.637,86.572h-0.686v-1.715h0.686V86.572z M23.637,83.143h-0.686V81.43h0.686
+            V83.143z M23.637,79.715h-0.686V78h0.686V79.715z M23.637,76.285h-0.686v-1.713h0.686V76.285z M23.637,72.857h-0.686v-1.715
+            h0.686V72.857z M23.637,69.43h-0.686v-1.715h0.686V69.43z M23.637,66h-0.686v-1.715h0.686V66z M23.637,62.572h-0.686v-1.715
+            h0.686V62.572z M23.637,59.143h-0.686v-1.714h0.686V59.143z M23.637,55.714h-0.686V54h0.686V55.714z M23.637,52.285h-0.686
+            v-1.714h0.686V52.285z M23.637,48.857h-0.686v-1.715h0.686V48.857z M23.637,45.429h-0.686v-1.715h0.686V45.429z M23.637,42
+            h-0.686v-1.715h0.686V42z M23.637,38.571h-0.686v-1.714h0.686V38.571z M23.637,35.143h-0.686v-1.714h0.686V35.143z
+                M23.637,31.714h-0.686V30h0.686V31.714z M23.637,28.285h-0.686v-1.714h0.686V28.285z M23.637,24.857h-0.686v-1.715h0.686
+            V24.857z M23.637,21.429h-0.686v-1.715h0.686V21.429z M23.637,18h-0.686v-1.715h0.686V18z M23.637,14.571h-0.686v-1.714h0.686
+            V14.571z M23.637,11.143h-0.686V9.429h0.686V11.143z M23.637,7.714h-0.686V6h0.686V7.714z M23.637,4.285h-0.686V2.571h0.686
+            V4.285z"/>
+            <rect x="22.951" y="119.143" fill="#868E96" width="0.686" height="0.857"/>
+
+        </symbol>
+
+        <symbol id="web-design" viewBox="0 0 120 120">
+            <path fill="#1976D2" d="M25.441,52.294h69.117V21.201H25.441V52.294z M63.227,36.748l28.788-12.345v24.689L63.227,36.748z
+            M87.093,49.75H32.907L60,38.132L87.093,49.75z M60,35.364L32.907,23.746h54.186L60,35.364z M56.773,36.748L27.985,49.093V24.403
+            L56.773,36.748z"/>
+            <path fill="#1976D2" d="M25.441,97.951H55.76V55.48H25.441V97.951z"/>
+            <path fill="#1976D2" d="M58.728,68.057h35.831V55.48H58.728V68.057z"/>
+            <path fill="#1976D2" d="M111.52,18.233V0H93.286v7.117H26.714V0H8.48v18.233h7.116v83.534H8.48V120h18.233v-7.116h66.572V120
+            h18.233v-18.232h-7.116V18.233H111.52z M96.83,3.544h11.146v11.146H96.83V3.544z M12.024,14.689V3.544H23.17v11.146H12.024z
+            M23.17,116.457H12.024v-11.146H23.17V116.457z M107.976,105.312v11.146H96.83v-11.146H107.976z M99.858,101.768h-6.572v6.572
+            H26.714v-6.572h-6.572V18.233h6.572v-6.572h66.572v6.572h6.572V101.768z"/>
+            <rect x="58.728" y="78.266" fill="#1976D2" width="35.831" height="3.938"/>
+            <rect x="58.728" y="70.393" fill="#1976D2" width="35.831" height="3.937"/>
+            <rect x="58.728" y="94.014" fill="#1976D2" width="35.831" height="3.938"/>
+            <rect x="58.728" y="86.141" fill="#1976D2" width="35.831" height="3.937"/>
+        </symbol>
+
+        <symbol id="graphic-design" viewBox="0 0 120 120">
+            <path fill="#1976D2" d="M49.478,88.104c-1.229,0-2.342-0.728-2.836-1.854L22.407,31.01c-0.516-1.176-0.252-2.548,0.662-3.45
+			c0.915-0.902,2.291-1.146,3.458-0.614l57.276,26.072c1.186,0.54,1.907,1.764,1.805,3.064c-0.103,1.299-1.008,2.396-2.264,2.742
+			l-21.953,6.055L52.33,86.218c-0.484,1.137-1.597,1.879-2.833,1.887C49.49,88.104,49.484,88.104,49.478,88.104z M31.336,35.942
+            l18.096,41.249l6.841-16.112c0.369-0.868,1.116-1.523,2.027-1.774l15.168-4.184L31.336,35.942z"/>
+            <path fill="#1976D2" d="M15.277,80.555v8.904H6.372v-8.904H15.277z M19.15,76.682H2.5v16.649h16.65V76.682L19.15,76.682z"/>
+            <path fill="#1976D2" d="M28.308,44.461C18.339,52.27,11.31,63.66,9.181,76.682h4.717c2.005-11.131,7.947-20.91,16.336-27.83
+            L28.308,44.461z"/>
+            <path fill="#1976D2" d="M113.628,80.555v8.904h-8.905v-8.904H113.628z M117.5,76.682h-16.65v16.649h16.65V76.682L117.5,76.682z"/>
+            <path fill="#1976D2" d="M110.815,76.682C106.822,52.232,85.562,33.509,60,33.509c-5.025,0-9.88,0.736-14.475,2.085l6.967,3.171
+			c2.445-0.396,4.953-0.609,7.508-0.609c22.991,0,42.154,16.652,46.097,38.526H110.815z"/>
+        </symbol>
+
+        <symbol id="behance" viewBox="0 0 50 50">
+            <circle fill="#0077B5" cx="25" cy="25.296" r="25"/>
+            <path fill="#FFFFFF" d="M18.999,16.624c3.013,0,5.62,0.851,5.62,4.351c0,1.771-0.822,2.915-2.398,3.668
+            c2.162,0.614,3.208,2.246,3.208,4.449c0,3.57-2.999,5.105-6.192,5.105h-8.521V16.624H18.999z M18.497,23.723
+            c1.381,0,2.356-0.6,2.356-2.092c0-1.618-1.255-2.008-2.649-2.008h-3.626v4.1H18.497z M18.706,31.212
+            c1.576,0,2.859-0.558,2.859-2.329c0-1.799-1.074-2.51-2.775-2.51h-4.212v4.839H18.706z M35.958,30.25h3.082
+            c-0.948,2.914-2.915,4.281-5.955,4.281c-4.017,0-6.513-2.72-6.513-6.68c0-3.822,2.636-6.737,6.513-6.737
+            c3.989,0,6.192,3.138,6.192,6.903c0,0.224-0.014,0.447-0.028,0.656h-9.177c0,2.036,1.074,3.235,3.124,3.235
+            C34.257,31.909,35.623,31.338,35.958,30.25z M29.361,17.81v1.729h7.127V17.81H29.361z M30.072,26.471h5.69
+            c-0.153-1.688-1.032-2.72-2.789-2.72C31.3,23.75,30.185,24.796,30.072,26.471z"/>
+        </symbol>
+
+        <symbol id="envelope" viewBox="0 0 50 50">
+            <circle fill="#0077B5" cx="25" cy="25.296" r="25"/>
+            <path fill="#FFFFFF" d="M35.107,22.705c-2.176,1.506-4.365,3.013-6.527,4.533c-0.906,0.628-2.44,1.911-3.57,1.911h-0.014h-0.014
+            c-1.13,0-2.664-1.283-3.57-1.911c-2.162-1.52-4.352-3.026-6.514-4.533c-0.99-0.669-2.398-2.245-2.398-3.515
+            c0-1.367,0.739-2.538,2.231-2.538h20.529c1.213,0,2.231,1.004,2.231,2.231C37.492,20.445,36.335,21.854,35.107,22.705z
+            M37.492,34.057c0,1.229-1.004,2.232-2.231,2.232H14.731c-1.228,0-2.231-1.004-2.231-2.232V22.983
+            c0.418,0.46,0.893,0.865,1.408,1.213c2.315,1.576,4.658,3.152,6.932,4.811c1.172,0.865,2.622,1.926,4.143,1.926h0.014h0.014
+            c1.521,0,2.971-1.061,4.143-1.926c2.273-1.645,4.616-3.235,6.945-4.811c0.502-0.349,0.977-0.753,1.395-1.213V34.057z"/>
+        </symbol>
+
+    </svg>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contacto</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+    </header>
+
+    <!-- Intro -->
+    <section id="intro" class="background-img">
+        <div class="overlay dark-overlay"></div>
+        <div class="intro-text overlay-text">
+            <h1 class="intro-title">Juan González</h1>
+            <p class="intro-description lead text-muted">Diseñador gráfico y desarrollador web</p>
+            <!-- <div class="social-links">
+                <a href="#">
+                    <svg>
+                        <use xlink:href="#behance" />
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg>
+                        <use xlink:href="#envelope" />
+                    </svg>
+                </a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="section-title font-weight-bold">¿qué puedo hacer?</h2>
+                </div>
+
+                <!-- Skills Cards -->
+                <div class="col-12 mb-4">
+                    <div class="row">
+                        <!-- Card -->
+                        <div class="col-12 col-md-6 col-lg-3 mb-3">
+                            <div class="skill-card drop-shadow text-center">
+                                <svg>
+                                    <use xlink:href="#development" />
+                                </svg>
+                                <h3 class="h4 font-weight-bold text-uppercase">Desarrollo</h3>
+                                <p class="text-muted">
+                                    Desarrollo de sitios web dinámicos y administrables diseñados a la medida de cada proyecto
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card -->
+                        <div class="col-12 col-md-6 col-lg-3 mb-3">
+                            <div class="skill-card drop-shadow text-center">
+                                <svg>
+                                    <use xlink:href="#branding" />
+                                </svg>
+                                <h3 class="h4 font-weight-bold text-uppercase">Branding</h3>
+                                <p class="text-muted">
+                                    Construcción de todos los componentes gráficos y simbólicos de una identidad organizacional
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card -->
+                        <div class="col-12 col-md-6 col-lg-3 mb-3">
+                            <div class="skill-card drop-shadow text-center">
+                                <svg>
+                                    <use xlink:href="#web-design" />
+                                </svg>
+                                <h3 class="h4 font-weight-bold text-uppercase">Diseño Web</h3>
+                                <p class="text-muted">
+                                    Diseño personalizado de sitios web, pensado en la interacción del usuario con tu sitio web
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card -->
+                        <div class="col-12 col-md-6 col-lg-3 mb-3">
+                            <div class="skill-card drop-shadow text-center">
+                                <svg>
+                                    <use xlink:href="#graphic-design" />
+                                </svg>
+                                <h3 class="h4 font-weight-bold text-uppercase">D. gráfico</h3>
+                                <p class="text-muted">
+                                    Creación de todo tipo de elementos gráficos, desde tarjetas de presentación hasta espectaculares
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <!-- Skills text -->
+                <div class="col-12">
+                    <p class="skills-description text-muted text-center">
+                        Algunas de las herramientas / tecnologías que manejo:
+                        <br />
+                        Adobe Photoshop | Adobe Illustrator | Adobe InDesign | HTML5 | CSS3 | SASS | NPM | Gulp | Bootstrap | JavaScript | jQuery | PHP | WordPress
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="pt-5">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title font-weight-bold">portafolio</h2>
+                    <p class="section-subtitle text-muted">
+                        Una pequeña colección de mis proyectos más recientes
+                    </p>
+                </div>
+
+                <!-- Portfolio items -->
+                <div class="col-12">
+                    <div class="row">
+
+                        <!-- Portfolio Item -->
+                        <div class="portfolio-item neurobc col-12 col-md-6 col-lg-4 background-img">
+                            <div class="overlay primary-overlay"></div>
+                            <div class="overlay-text">
+                                <h4 class="item-title font-weight-bold m-0">NeuroBC</h4>
+                                <small class="item-tags">desarrollo web - branding</small>
+                                <button class="btn btn-portfolio my-2"><a href="neurobc.html">ver proyecto</a></button>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item -->
+                        <div class="portfolio-item parlant col-12 col-md-6 col-lg-4 background-img">
+                            <div class="overlay primary-overlay"></div>
+                            <div class="overlay-text">
+                                <h4 class="item-title font-weight-bold m-0">Instituto Parlant</h4>
+                                <small class="item-tags">branding - diseño gráfico</small>
+                                <button class="btn btn-portfolio my-2"><a href="parlant.html">ver proyecto</a></button>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item -->
+                        <div class="portfolio-item cochran col-12 col-md-6 col-lg-4 background-img">
+                            <div class="overlay primary-overlay"></div>
+                            <div class="overlay-text">
+                                <h4 class="item-title font-weight-bold m-0">Dr. Cochran</h4>
+                                <small class="item-tags">branding - diseño web</small>
+                                <button class="btn btn-portfolio my-2"><a href="cochran.html">ver proyecto</a></button>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item -->
+                        <div class="portfolio-item innocentro col-12 col-md-6 col-lg-4 background-img">
+                            <div class="overlay primary-overlay"></div>
+                            <div class="overlay-text">
+                                <h4 class="item-title font-weight-bold m-0">Innocentro</h4>
+                                <small class="item-tags">diseño gráfico</small>
+                                <button class="btn btn-portfolio my-2"><a href="innocentro.html">ver proyecto</a></button>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item -->
+                        <div class="portfolio-item solutec col-12 col-md-6 col-lg-4 background-img">
+                            <div class="overlay primary-overlay"></div>
+                            <div class="overlay-text">
+                                <h4 class="item-title font-weight-bold m-0">Solutec Group</h4>
+                                <small class="item-tags">desarrollo web</small>
+                                <button class="btn btn-portfolio my-2"><a href="solutec.html">ver proyecto</a></button>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item -->
+                        <div class="portfolio-item sonrisas col-12 col-md-6 col-lg-4 background-img">
+                            <div class="overlay primary-overlay"></div>
+                            <div class="overlay-text">
+                                <h4 class="item-title font-weight-bold m-0">Sonrisas Dental Care</h4>
+                                <small class="item-tags">branding - diseño gráfico</small>
+                                <button class="btn btn-portfolio my-2"><a href="sonrisas.html">ver proyecto</a></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-8 mx-auto text-center mb-3">
+                    <h2 class="section-title font-weight-bold">contacto</h2>
+                    <p class="section-subtitle text-muted">
+                        Si deseas ponerte en contacto conmigo, completa el siguiente formulario y me pondré en contacto lo más rápido posible ;)
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-10 mx-auto contact-card drop-shadow">
+                    <form action="https://formspree.io/juan.antonioglzm@gmail.com" method="post">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo</label>
+                            <input type="email" name="email" id="email" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                        </div>
+
+                        <input type="hidden" name="_subject" value="Mensaje de contacto" />
+                        <input type="hidden" name="_next" value="index.html" />
+
+                        <button type="submit" class="btn btn-primary text-uppercase font-weight-bold">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script>
+        $(function(){$(document).scroll(function(){var e=$(".fixed-top");e.toggleClass("scrolled",$(this).scrollTop()>e.height())})}),$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(e){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var t=$(this.hash);t=t.length?t:$("[name="+this.hash.slice(1)+"]"),t.length&&(e.preventDefault(),$("html, body").animate({scrollTop:t.offset().top},1e3,function(){var e=$(t);return e.focus(),e.is(":focus")?!1:(e.attr("tabindex","-1"),void e.focus())}))}}),window.sr=ScrollReveal(),sr.reveal(".intro-text",{origin:"top",distance:"300px",duration:1e3,opacity:0}),sr.reveal(".skills-description",{duration:1e3,delay:2e3}),sr.reveal(".section-title",{origin:"left",distance:"300px",duration:1e3,viewFactor:.5}),sr.reveal(".section-subtitle",{duration:1e3,delay:600}),sr.reveal(".skill-card",{duration:3e3,origin:"left"},100),sr.reveal(".portfolio-item",{duration:2e3,origin:"left"},100),sr.reveal(".contact-card",{origin:"bottom",distance:"300px",duration:600,delay:1e3});
+    </script>
+</body>
+</html>
