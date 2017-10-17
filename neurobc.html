@@ -14,26 +14,42 @@
 </head>
 <body>
 
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        
+        <symbol id="menu" viewBox="0 0 30 30">
+            <path d="M29.8,6.367c0,0.674-0.559,1.233-1.233,1.233H1.434C0.759,7.6,0.2,7.041,0.2,6.367V3.9c0-0.674,0.559-1.233,1.233-1.233
+            h27.133c0.675,0,1.233,0.559,1.233,1.233V6.367z M29.8,16.233c0,0.674-0.559,1.233-1.233,1.233H1.434
+            c-0.674,0-1.233-0.56-1.233-1.233v-2.467c0-0.674,0.559-1.233,1.233-1.233h27.133c0.675,0,1.233,0.559,1.233,1.233V16.233z
+            M29.8,26.1c0,0.675-0.559,1.233-1.233,1.233H1.434c-0.674,0-1.233-0.559-1.233-1.233v-2.467c0-0.674,0.559-1.232,1.233-1.232
+            h27.133c0.675,0,1.233,0.559,1.233,1.232V26.1z"/>
+        </symbol>
+
+    </svg>
+
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-md fixed-top scrolled">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler ml-auto mr-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu-icon">
+                    <svg>
+                        <use xlink:href="#menu" />
+                    </svg>
+                </span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">inicio</a>
+                        <a class="nav-link" href="#">inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#skills">habilidades</a>
+                        <a class="nav-link" href="#skills">habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#portfolio">portafolio</a>
+                        <a class="nav-link" href="#portfolio">portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">contacto</a>
+                        <a class="nav-link" href="#contact">contacto</a>
                     </li>
                 </ul>
             </div>
@@ -74,7 +90,7 @@
             <a href="solutec.html" class="col-6 col-md-5 background-img solutec bg-secondary py-5"></a>
         </div>
 
-        <a href="index.html" class="d-block w-25 mx-auto my-4 text-center text-muted"><< volter al inicio</a>
+        <a href="index.html" class="d-block w-25 mx-auto my-4 text-center text-muted"><< volver al inicio</a>
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
