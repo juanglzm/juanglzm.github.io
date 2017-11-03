@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109186350-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109186350-1');
+    </script>
+
 </head>
 <body>
 
@@ -475,6 +486,10 @@
                     </form>
                 </div>
 
+                <div class="col-12 text-center my-3">
+                    <a href="https://drive.google.com/open?id=0B3MO-daREld1V00tZmdzcXN4NjA" target="_blank" class="btn-cv btn btn-secondary">Descargar CV</a>
+                </div>
+
             </div>
 
         </div>
@@ -485,7 +500,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scrollreveal.min.js"></script>
     <script>
-        $(function(){$(document).scroll(function(){var e=$(".fixed-top");e.toggleClass("scrolled",$(this).scrollTop()>e.height())})}),$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(e){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var t=$(this.hash);t=t.length?t:$("[name="+this.hash.slice(1)+"]"),t.length&&(e.preventDefault(),$("html, body").animate({scrollTop:t.offset().top},1e3,function(){var e=$(t);return e.focus(),e.is(":focus")?!1:(e.attr("tabindex","-1"),void e.focus())}))}}),window.sr=ScrollReveal(),sr.reveal(".intro-text",{origin:"top",distance:"300px",duration:1e3,opacity:0}),sr.reveal(".skills-description",{duration:1e3,delay:2e3}),sr.reveal(".section-title",{origin:"left",distance:"300px",duration:1e3,viewFactor:.5}),sr.reveal(".section-subtitle",{duration:1e3,delay:600}),sr.reveal(".skill-card",{duration:3e3,origin:"left"},100),sr.reveal(".portfolio-item",{duration:2e3,origin:"left"},100),sr.reveal(".contact-card",{origin:"bottom",distance:"300px",duration:600,delay:1e3});
+        $(function(){$(document).scroll(function(){var e=$(".fixed-top");e.toggleClass("scrolled",$(this).scrollTop()>e.height())})}),$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(e){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var t=$(this.hash);t=t.length?t:$("[name="+this.hash.slice(1)+"]"),t.length&&(e.preventDefault(),$("html, body").animate({scrollTop:t.offset().top},1e3,function(){var e=$(t);return e.focus(),e.is(":focus")?!1:(e.attr("tabindex","-1"),void e.focus())}))}}),window.sr=ScrollReveal(),sr.reveal(".intro-text",{origin:"top",distance:"300px",duration:1e3,opacity:0}),sr.reveal(".skills-description",{duration:1e3,delay:1e3}),sr.reveal(".section-title",{origin:"left",distance:"300px",duration:1e3,viewFactor:.5}),sr.reveal(".section-subtitle",{duration:1e3,delay:600}),sr.reveal(".skill-card",{duration:3e3,origin:"left"},100),sr.reveal(".portfolio-item",{duration:2e3,origin:"left"},100),sr.reveal(".contact-card",{origin:"bottom",distance:"300px",duration:450,delay:1e3});
+        sr.reveal(".btn-cv",{viewFactor: 0.3, origin:"bottom",distance:"300px",duration:400,delay:1e3});
     </script>
 </body>
 </html>
